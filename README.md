@@ -22,5 +22,5 @@ Login page
 ```
 Sign up page
 ```
-![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/sign up.png)
+![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/sign%20up.png)
 

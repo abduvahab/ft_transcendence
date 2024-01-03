@@ -1,0 +1,75 @@
+.navbar {
+    font-size: 44px;
+    font-family: 'ArcadeClassic', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar img {
+    width:50px;
+    margin-right: 10px;
+    transition: trasnform 0.3s;
+}
+  
+.navbar img:hover {
+    transform: rotate(20deg);
+}
+
+.buttons {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'ArcadeClassic', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-button {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+  
+.profile-button img {
+    width: 60px;
+
+}
+.bell img {
+    width: 20px;
+}
+.friend{
+    position: relative;
+    display: inline-block;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+
+
+.logotAire{
+    position:absolute;
+    top:11.1%;
+    right:1.8%;
+    font-size: xx-small;
+    font-family: 'ArcadeClassic', sans-serif;
+    overflow: visible;
+    background-color: #555a74;
+    z-index: 1;
+
+}
+
+.invitation_imageC {
+    background-color: #ddddf7;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

@@ -19,6 +19,7 @@ Login page
 ```
 ![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/login.png)
 
+```
 Sign up page
 ```
 ![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/sign up.png)

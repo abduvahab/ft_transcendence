@@ -129,6 +129,8 @@ N_URL=
 C_URL=
 ```
 3. .env file in client
+
+   
 VITE_LOCAL1=
 VITE_LOCAL2=
 

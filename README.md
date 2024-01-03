@@ -16,5 +16,10 @@ The Pong Contest website allows users to play Pong with others in real-time. It 
 ## Screenshots
 ```
 Login page
+```
 ![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/login.png)
+
+Sign up page
+```
+![alt text](https://github.com/abduvahab/ft_transcendence/blob/main/images/sign up.png)
 

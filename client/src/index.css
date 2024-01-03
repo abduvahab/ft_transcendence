@@ -1,0 +1,59 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('fonts/ARCADECLASSIC.TTF') format('truetype');
+  }
+
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    /* background-color: #3b4b46; */
+    background-color: rgb(85, 90, 116);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  @layer base {
+    body{
+      @apply text-sm;
+    }
+    td{
+      @apply capitalize text-white/70;
+    }
+    thead td{
+      @apply text-white;
+    }
+  
+  }
+  @layer components{
+    .btn{
+      @apply flex gap-2 items-center text-sm text-white py-2 px-4 rounded-md;
+    }
+    .input{
+      @apply border border-slate-800  bg-slate-700 bg-transparent p-2 placeholder:text-white;
+    }
+    .container{
+      @apply max-w-[1000px];
+    }
+  }
+
+  @layer utilities{
+    .btn-red{
+      @apply bg-red-700 hover:bg-red-500;
+    }
+    .btn-green{
+      @apply bg-green-700 hover:bg-green-500;
+    }
+  }

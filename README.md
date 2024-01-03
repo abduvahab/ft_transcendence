@@ -127,13 +127,13 @@ T_SECRET=hjfdjdhs736JDHS%$*NDJJH
 N_URL=
 #adrress of client || reat address
 C_URL=
-```
+
 3. .env file in client
 
    
 VITE_LOCAL1=
 VITE_LOCAL2=
-
+```
 
 ### second  : 
 ```
